@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    -webkit-box-sizing: 0;
+            box-sizing: 0;
+  }
+  
+  html, body, #root {
+    min-height: 100%;
+  }
+  
+  body {
+    background-color: #ECF1FF;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale !important;
+  }
+  
+  body, input, button {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
