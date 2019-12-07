@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-export default function Dashboard() {
-
+export default function Wiki() {
 
     return (
 
-        <div />
+        <>
+            <h1 style={{fontSize: '100px'}}>Wiki</h1>
+        </>
     
     )
 
