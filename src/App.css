@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,400,600,700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -20,5 +20,20 @@ body {
 body, input, button {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
   font-size: 14px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: 600;
 }
 /*# sourceMappingURL=App.css.map */
