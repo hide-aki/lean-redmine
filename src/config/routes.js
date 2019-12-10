@@ -26,26 +26,26 @@ export default function Routes() {
                         defaultSelectedKeys={["1"]}
                         inlineCollapsed={isCollapsed.state}
                         activeKey={activeKey}
-                        style={{display: 'flex', flexDirection: 'column', flexWrap: 'wrap', justifyContent: 'center', height: '100vh'}}
+                        style={{display: 'flex', flexDirection: 'column', flexWrap: 'wrap', justifyContent: 'center', height: '100vh', borderRadius: '0 30px 30px 0'}}
                     >
 
                         <Menu.Item key="0" title="LeanRedmine Logo" >
-                            <Icon type="chrome"  theme="filled" style={{color: "#FF4D4F"}} />
+                            <Icon type="chrome"  theme="filled" style={{color: "#FF4D4F", fontSize: '20px'}} />
                             <span>LeanRedmine</span>
                         </Menu.Item>
 
                         <Menu.Item key="1" title="Painel de controle" onClick={() => {setActiveKey("1")}}>
-                            <Icon type="dashboard" />
+                            <Icon type="dashboard" style={{fontSize: '20px'}} />
                             <span><Link exact to="/">Painel de controle</Link></span>
                         </Menu.Item>
 
                         <Menu.Item key="2" title="Wiki" onClick={() => {setActiveKey("2")}}>
-                            <Icon type="database" />
+                            <Icon type="database" style={{fontSize: '20px'}} />
                             <span><Link to="/wiki">Wiki</Link></span>
                         </Menu.Item >
 
-                        <Menu.Item key="99" title="Minimizar/maximizar" onClick={() => setIsCollapsed({state: !isCollapsed.state})} style={{}}>
-                            <Icon type={isCollapsed.state ? 'menu-unfold' : 'menu-fold'} />
+                        <Menu.Item key="99" title="Minimizar/maximizar" onClick={() => setIsCollapsed({state: !isCollapsed.state})}>
+                            <Icon type={isCollapsed.state ? 'menu-unfold' : 'menu-fold'} style={{fontSize: '20px'}} />
                             <span>Minimizar</span>
                         </Menu.Item >
 
