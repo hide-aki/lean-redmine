@@ -18,12 +18,12 @@ export default function Dashboard() {
             </div>
             <div style={{width: '400px', height: '100vh', right: 0, borderRadius: '30px 0 0 30px', background: '#fff', alignSelf: 'flex-end'}}>
                 <div style={{display: 'flex', margin: '40px'}}>
-                    <Icon type="calendar" style={{marginTop: '3px', color: "#FF4D4F", marginRight: '15px'}} />
+                    <Icon type="calendar" style={{color: "#FF4D4F", marginRight: '15px', fontSize: '20px'}} />
                     <h3>Minha agenda</h3>
                 </div>
                 <Calendar fullscreen={false} onPanelChange={"onPanelChange"} style={{margin: '30px'}}/>
                 <div style={{display: 'flex', margin: '40px'}}>
-                    <Icon type="unordered-list" style={{marginTop: '4px', color: "#FF4D4F", marginRight: '15px'}} />
+                    <Icon type="unordered-list" style={{color: "#FF4D4F", marginRight: '15px', fontSize: '20px'}} />
                     <h3>Minhas próximas tarefas</h3>
                 </div>
                 <div style={{margin: '40px', display: 'flex', flexDirection: 'column', alignItems: 'baseline'}}>

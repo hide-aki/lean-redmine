@@ -3,12 +3,72 @@ import { Icon, Progress } from 'antd';
 
 export default function StrategyStats() {
 
+    const [strateyStatus, setStrategyStatus] = useState("ok");
 
+    function setBackground(strateyStatus) {
+
+        switch(strateyStatus) {
+
+            case "ok":
+            return 'linear-gradient(180deg, #52C41A 0%, #389E0D 100%)';
+
+            case "warning":
+            return 'linear-gradient(180deg, #FADB14 0%, #D4B106 100%)';
+
+            case "danger":
+            return 'linear-gradient(180deg, #FF4D4F 0.01%, #F5222D 100%)';
+            
+            default:
+            return '#000'
+
+        }
+
+    }
+
+    function setIcon(strateyStatus) {
+
+        switch(strateyStatus) {
+
+            case "ok":
+            return 'check';
+
+            case "warning":
+            return 'warning';
+
+            case "danger":
+            return 'stop';
+            
+            default:
+            return '#000'
+
+        }
+
+    }
+
+    function setIconColor(strateyStatus) {
+
+        switch(strateyStatus) {
+
+            case "ok":
+            return '#52C41A';
+
+            case "warning":
+            return '#FADB14';
+
+            case "danger":
+            return '#FF4D4F';
+            
+            default:
+            return '#000'
+
+        }
+
+    }
 
     return (
 
-    <div style={{position: 'relative', width: '100%', height: '275px', padding: '30px', display: 'flex', justifyContent: 'space-between', background: 'linear-gradient(180deg, #52C41A 0%, #389E0D 100%)', borderRadius: '30px', color: '#fff', zIndex: '-2'}}>
-        <Icon type="check" style={{fontSize: '372px', color: '#52C41A', position: 'absolute', top: 0, left: '50%', bottom: 0, borderRadius: '30px', zIndex: '-1', overflow: 'hidden'}} />
+    <div style={{position: 'relative', width: '100%', height: '275px', padding: '30px', display: 'flex', justifyContent: 'space-between', background: setBackground("ok"), borderRadius: '30px', color: '#fff', zIndex: '-2'}}>
+        <Icon type={setIcon("ok")} style={{fontSize: '372px', color: setIconColor("ok"), position: 'absolute', top: 0, left: '50%', bottom: 0, borderRadius: '30px', zIndex: '-1', overflow: 'hidden'}} />
         <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'space-between'}}>
             <h1 style={{fontWeight: 200, lineHeight: '1em', color: 'inherit'}}>Plano estratégico 2020-2021</h1>
             <div style={{height: 'auto', marginTop: 'auto', display: 'flex'}}>
