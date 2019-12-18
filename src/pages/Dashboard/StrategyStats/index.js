@@ -82,7 +82,7 @@ export default function StrategyStats() {
                 </div>
             </div>
         </div>
-        <div style={{display: 'flex', flexDirection: 'column', height: '100%'}}>
+        <div style={{marginLeft: '30px', display: 'flex', flexDirection: 'column', height: '100%'}}>
             <div style={{marginTop: 'auto'}}>
                 <p style={{margin: 0}}>O trimestre acaba em</p>
                 <h2 style={{margin: 0, color: '#fff'}}>2 meses e 3 dias</h2>

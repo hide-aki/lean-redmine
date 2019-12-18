@@ -26,7 +26,7 @@ export default function Routes() {
                         defaultSelectedKeys={["1"]}
                         inlineCollapsed={isCollapsed.state}
                         activeKey={activeKey}
-                        style={{display: 'flex', flexDirection: 'column', flexWrap: 'wrap', justifyContent: 'center', height: '100vh', borderRadius: '0 30px 30px 0'}}
+                        style={{position: 'sticky', top: 0, left: 0, display: 'flex', flexDirection: 'column', flexWrap: 'wrap', justifyContent: 'center', height: '100vh', borderRadius: '0 30px 30px 0'}}
                     >
 
                         <Menu.Item key="0" title="LeanRedmine Logo" >
