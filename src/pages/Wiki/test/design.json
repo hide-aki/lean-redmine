@@ -1,0 +1,17 @@
+{
+    "wiki_page": {
+      "title": "Design",
+      "parent": {
+        "title": "Wiki"
+      },
+      "text": "h1. Design\r\n\r\nO design _[dezaine]_, desenho industrial ou projetismo é a idealização, criação, desenvolvimento, configuração, concepção, elaboração e especificação de produtos, normalmente produzidos industrialmente ou por meio de sistema de produção em série que demanda padronização dos componentes e desenho normalizado. Essa é uma atividade estratégica, técnica e criativa, normalmente orientada por uma intenção ou objetivo, ou para a solução de um problema.\r\n\r\nExemplos de coisas que se podem projetar incluem muitos tipos de objetos, como utensílios domésticos, vestimentas, máquinas, ambientes, serviços, marcas e também imagens, como em peças gráficas, famílias de letras (tipografia), livros e interfaces digitais de softwares ou de páginas da internet, entre outros.\r\n\r\nO design recorre a algumas disciplinas como por exemplo a antropometria, a economia, a biônica, a ecologia, entre outras.\r\n\r\nO design é também uma profissão, cujo profissional é o designer. Os designers normalmente se especializam em uma determinada área ou atividade. Atualmente as especializações mais comuns são o design de interação, design de produto, design visual, design de moda, design de interiores e o design gráfico.",
+      "version": 2,
+      "author": {
+        "id": 153,
+        "name": "willi.piske"
+      },
+      "comments": "",
+      "created_on": "2019-12-18T12:56:14-03:00",
+      "updated_on": "2019-12-19T15:39:11-03:00"
+    }
+  }

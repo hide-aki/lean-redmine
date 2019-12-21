@@ -4,7 +4,7 @@ import { AuthContext } from "./config/auth/auth";
 
 import Routes from './config/routes';
 
-// import '../node_modules/antd/dist/antd.css';
+import '../node_modules/antd/dist/antd.css';
 //import '../node_modules/react-grid-layout/css/styles.css';
 //import '../node_modules/react-resizable/css/styles.css';
 import './App.css';
